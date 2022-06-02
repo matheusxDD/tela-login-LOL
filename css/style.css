@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(/images/bg-teemo.png) no-repeat;
+}
+
+@font-face {
+    font-family: "True Story";
+    src: url("/fonts/TrueStory.woff")
+}
+
+
+
+
+
+form {
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+h1.logo {
+    font-family: "True Story";
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 200px;
+    height: 120px;
+    
+    
+
+}
+
+.title {
+    font-size: 2em;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+
+
+.usuario input {
+    border: none;
+    background-color: rgb(235, 235, 235);
+    height: 50px;
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.usuario input::placeholder {
+    color: rgb(67, 68, 68);
+}
+
+.usuario input:hover {
+    background-color: rgb(222, 225, 230);
+}
+
+
+.senha {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.senha::placeholder {
+    color: rgb(67, 68, 68);
+}
+
+.senha:hover {
+    background-color: rgb(222, 225, 230);
+}
+
+.manter-conectado {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    width: 128px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.button-facebook:hover {
+    background-color: rgb(32, 99, 187);
+    border: 1px solid rgb(32, 99, 187);
+}
+
+.button-google:hover {
+    border: 1px solid lightgray;
+}
+
+.button-apple:hover {
+    border: 1px solid lightgray;
+}
+
+.seta button {
+    
+    margin-top: 15px;
+    margin-left: 212.5px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 75px;
+    width: 75px;
+}
+
+.nao-login a {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(67, 68, 68);
+}
+
+.nao-login a:hover {
+    color: black;
+}
+
+.criar-conta a {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    color: rgb(67, 68, 68);
+}
+
+.criar-conta a:hover {
+    color: black;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+.link a{
+    font-size: 0.8em;
+    color: white;
+}
+
+.link button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    width: 80px;
+    height: 25px;
+    background-color: lightblue;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.link button:hover {
+    background-color: aqua;
+}
+
+.ultimo-texto {
+    height: 30px;
+
+}
+
+.ultimo-texto p {
+    margin-top: 7px;
+    margin-left: 50px;
+    color: white;
+    font-size: 0.5em;
+}
+
+
+
